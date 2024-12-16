@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm</title>
+</head>
+<body>
+    <div class="main">
+        <div class="alarm"><p>Alarm⏰</p></div>
+        
+       <div class="input">
+            <input id="hour-input" type="number">
+            <input id="minute-input" type="number">
+       </div>
+
+       <div class="counter">
+            <p id="current-hour"></p>
+            <p>:</p>
+            <p id="current-minute"></p>
+            <p>:</p>
+            <p id="current-second"></p>
+       </div>
+
+       <div class="buttons">
+            <button id="submit-button">Submit</button>
+       </div>
+
+       <audio id="audio" src="./assets/alarm_rington.mp3"></audio>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
